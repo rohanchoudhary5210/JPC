@@ -1,3 +1,4 @@
+package java;
 import java.util.*;
 public class ent_num_till_mull_of_ten {
     public static void main(String[] args) {

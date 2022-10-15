@@ -1,8 +1,10 @@
+package java;
 import java.util.*;
-public class try_fun2{
-    public static int sum(int a,int b){//formal parameter or parameter
+public class try_fun1{
+    public static void sum(int a,int b){
         int s=a+b;
-        return s;
+        System.out.println(s);
+      
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -10,7 +12,6 @@ public class try_fun2{
         int a=sc.nextInt();
         int b=sc.nextInt();
         sc.close();
-        int s=sum(a,b);//actual  parameters/arguments
-        System.out.println(s);
+        sum(a,b);
     }
 }

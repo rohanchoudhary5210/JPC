@@ -1,3 +1,4 @@
+package java;
 import java.util.*;
 public  class sq_pat {
     public static void main(String[] args) {

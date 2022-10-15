@@ -1,16 +1,18 @@
+package java;
 import java.util.*;
-public class try_fun1{
-    public static void sum(int a,int b){
-        int s=a+b;
-        System.out.println(s);
-      
+public class product{
+    public  static int product(int a,int b)
+    {
+        int mul=a*b;
+        return mul;
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter 2 numbers: ");
         int a=sc.nextInt();
         int b=sc.nextInt();
+        int ans=product(a,b);
+        System.out.println("The product of "+a+" & "+b+" is "+ans);
         sc.close();
-        sum(a,b);
     }
 }

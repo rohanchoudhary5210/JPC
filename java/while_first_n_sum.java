@@ -1,3 +1,4 @@
+package java;
 import java.util.*;
 public class while_first_n_sum{
     public static void main(String[] args) {
