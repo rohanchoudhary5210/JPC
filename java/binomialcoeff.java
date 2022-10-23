@@ -12,23 +12,24 @@ public class binomialcoeff {
         sc.close();
     }
 
-    public static double binomial_coefficient(double n, double r) {
-    int n_coeff=factorail(n);
-    int r_coeff=factorail(r);
-    int diff=(int) (n-r);
-    int diff_coeff=factorail(diff);
-    double nCr=(n_coeff)/((r_coeff)*(diff_coeff));
-    return nCr;
-    }
-
-    public static int factorail(double n) {
+    public static int factorial(double n) {
         int f=1;
          for(int i=1;i<=n;i++){
              f=f*i;
          }
          return f;
     }
+
+    public static double binomial_coefficient(double n, double r) {
+    int n_coeff=factorial(n);
+    int r_coeff=factorial(r);
+    int diff=(int) (n-r);
+    int diff_coeff=factorial(diff);
+    double nCr=(n_coeff)/((r_coeff)*(diff_coeff));
+    return nCr;
+    }
 }
+
 
 
     
