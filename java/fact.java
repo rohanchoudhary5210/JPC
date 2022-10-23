@@ -1,4 +1,3 @@
-package java;
 import java.util.*;
 public class fact{
     public static int factorial(int a){

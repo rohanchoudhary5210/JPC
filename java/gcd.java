@@ -1,4 +1,4 @@
-package java;
+
 import java.util.*;
 public class  gcd{
     /* The greatest common divisor (GCD) of two or more numbers is the greatest common factor number that divides them, exactly. It is also called the highest common factor */

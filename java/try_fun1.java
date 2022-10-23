@@ -1,4 +1,3 @@
-package java;
 import java.util.*;
 public class try_fun1{
     public static void sum(int a,int b){

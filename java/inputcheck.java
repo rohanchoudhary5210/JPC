@@ -1,4 +1,3 @@
-package java;
 import java.util.*;
 public class inputcheck {
     public static void main(String[] args) {

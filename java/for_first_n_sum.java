@@ -1,4 +1,4 @@
-package java;
+
 import java.util.*;
 public class for_first_n_sum{
     public static void main(String[] args) {

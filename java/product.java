@@ -1,4 +1,3 @@
-package java;
 import java.util.*;
 public class product{
     public  static int product(int a,int b)

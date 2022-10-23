@@ -1,4 +1,3 @@
-package java;
 import java.util.*;
 public class try_fun2{
     public static int sum(int a,int b){//formal parameter or parameter
