@@ -1,4 +1,5 @@
 import java.util.*;
+//This program gives the sum of first n numbers
 public class while_first_n_sum{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

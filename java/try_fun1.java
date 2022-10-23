@@ -1,4 +1,6 @@
 import java.util.*;
+//  this program shows the sum of 2 numbers using functions
+
 public class try_fun1{
     public static void sum(int a,int b){
         int s=a+b;
