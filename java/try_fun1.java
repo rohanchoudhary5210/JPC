@@ -4,7 +4,7 @@ import java.util.*;
 public class try_fun1{
     public static void sum(int a,int b){
         int s=a+b;
-        System.out.println(s);
+        System.out.println("sum of "+a+" & "+b+" is "+s);
       
     }
     public static void main(String[] args) {
