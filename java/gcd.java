@@ -5,6 +5,7 @@ public class  gcd{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n;
+        
         do{
         System.out.print("Enter First Number: ");
         int n1=sc.nextInt();
@@ -39,5 +40,7 @@ public class  gcd{
             System.out.println("..............Exit done.");
           }
     }while(n==1);
+    sc.close();
         }
+        
     }
