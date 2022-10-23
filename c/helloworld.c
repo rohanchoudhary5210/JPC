@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//preprocessor directives
 
 int main(){
     printf("Hello World\n");
